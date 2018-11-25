@@ -179,3 +179,26 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 22px;
   letter-spacing: -.35px;
 }
+
+/* Section Other Expertise */
+
+.other-expertise {
+  background-color: #F7F7F7;
+}
+
+/* Section Amazing Portfolio */
+
+.portfolio-list {
+  display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-list-item {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  width: calc(100% * ( 1 / 3 ));
+}
